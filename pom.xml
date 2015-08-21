@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>be.milieuinfo.lnewebjar</groupId>
+  <groupId>be.milieuinfo.webjars</groupId>
   <artifactId>huisstijl</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -24,7 +24,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <outDir>${project.build.directory}/classes/META-INF/lnewebjar/huisstijl/${project.version}</outDir>
+    <outDir>${project.build.directory}/classes/META-INF/webjars/huisstijl/${project.version}</outDir>
     <acd.issueManagement.system>Jira</acd.issueManagement.system>
     <acd.issueManagement.url>https://www.milieuinfo.be/jira/</acd.issueManagement.url>
     <acd.ciManagement.system>Bamboo</acd.ciManagement.system>
