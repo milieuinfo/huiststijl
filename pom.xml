@@ -15,13 +15,6 @@
       <url>http://www.lne.be</url>
    </organization>
 
-    <!-- brings the sonatype snapshot repository and signing requirement on board -->
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-        <relativePath />
-    </parent>
 
 
   <properties>
