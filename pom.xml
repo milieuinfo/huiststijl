@@ -24,7 +24,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <outDir>${project.build.directory}/classes/META-INF/webjars/huisstijl/${project.version}</outDir>
+    <outDir>${project.build.directory}/classes/META-INF/resources/webjars/huisstijl/${project.version}</outDir>
     <acd.issueManagement.system>Jira</acd.issueManagement.system>
     <acd.issueManagement.url>https://www.milieuinfo.be/jira/</acd.issueManagement.url>
     <acd.ciManagement.system>Bamboo</acd.ciManagement.system>
