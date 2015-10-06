@@ -18,23 +18,18 @@
    <parent>
       <groupId>be.milieuinfo.architectuur</groupId>
       <artifactId>acdsuperpom</artifactId>
-      <version>1.0.19</version>
+      <version>1.0.20</version>
    </parent>
-
+  <scm>
+    <connection>scm:git:ssh://git@stash-pr-3255.mmis.be/dspac/huiststijl.git</connection>
+    <developerConnection>scm:git:ssh://git@stash-pr-3255.mmis.be/dspac/huiststijl.git</developerConnection>
+    <url>scm:git:ssh://git@stash-pr-3255.mmis.be/dspac/huiststijl.git</url>
+    <tag>HEAD</tag>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <outDir>${project.build.directory}/classes/META-INF/resources/webjars/huisstijl/${project.version}</outDir>
-    <acd.issueManagement.system>Jira</acd.issueManagement.system>
-    <acd.issueManagement.url>https://www.milieuinfo.be/jira/</acd.issueManagement.url>
-    <acd.ciManagement.system>Bamboo</acd.ciManagement.system>
-    <acd.ciManagement.url>https://www.milieuinfo.be/bamboo</acd.ciManagement.url>
-    <acd.repository.url>https://www.milieuinfo.be/repository</acd.repository.url>
-    <acd.repository.replica.url>${acd.repository.url}/content/groups/replica</acd.repository.replica.url>
-    <acd.repository.snapshot.url>dav:${acd.repository.url}/content/repositories/snapshot</acd.repository.snapshot.url>
-    <acd.repository.release.url>dav:${acd.repository.url}/content/groups/release</acd.repository.release.url>
-    <acd.scm.maven-url>scm:svn:https://svn.milieuinfo.be/productie/svn</acd.scm.maven-url>
-    <acd.scm.maven-intern-url>scm:svn:https://svn.milieuinfo.be/productie/svn</acd.scm.maven-intern-url>
   </properties>
 
   <build>
