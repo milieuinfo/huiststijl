@@ -71,10 +71,10 @@ $paragraph-text-rendering: optimizeLegibility !default;
 
 
 // We use these to style anchors
-$anchor-text-decoration: none !default;
-$anchor-text-decoration-hover: none !default;
-$anchor-font-color: $primary-color !default;
-$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%) !default;
+//$anchor-text-decoration: none !default;
+//$anchor-text-decoration-hover: none !default;
+//$anchor-font-color: $primary-color !default;
+//$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%) !default;
 
 // We use these to style the <hr> element
 $hr-border-width: 1px !default;

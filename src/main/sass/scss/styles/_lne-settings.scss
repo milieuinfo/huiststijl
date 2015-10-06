@@ -64,9 +64,9 @@ $bold-font-family: "Flanders Art Sans Bold", "Lucida Sans Unicode", "Lucida Gran
 // We use these as default colors throughout
 
 
-$dark-green   : #417868;
+$dark-green   : #42796d;
 $mid-green     : #3f7868;
-$light-green  : #4da692;
+$light-green  : #4DA694;
 $brown : #825315;
 $default-text-color: #494949;
 
@@ -164,6 +164,12 @@ $blockquote-font-color: scale-color($header-font-color, $lightness: 35%);
 $blockquote-padding: rem-calc(2 20 0 19);
 $blockquote-border: 3px solid $mid-purple;
 
+// We use these to style anchors
+$anchor-text-decoration: none;
+$anchor-text-decoration-hover: underline;
+$anchor-font-color: #4da692;
+$anchor-font-color-hover: scale-color(#4da692, $lightness: -14%);
+
 
 // We use these to set the padding around the breadcrumbs.
 
@@ -259,10 +265,11 @@ $topbar-dropdown-link-bg: $light-green;
 
 // Set the link colors and styles for top-level nav
 
-$topbar-link-font-size: rem-calc(14);
-$topbar-link-bg-hover: $dark-green;
+$topbar-link-font-size: rem-calc(15);
+$topbar-link-color-hover: $light-green;
+$topbar-link-bg-hover: $white;
 $topbar-link-bg-active: $dark-green !default;
-$topbar-link-bg-active-hover: scale-color($dark-gray, $lightness: -14%);
+$topbar-link-bg-active-hover: $light-green;
 
 
 // hack voor widgets vlaanderen
