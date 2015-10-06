@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>be.milieuinfo.webjars</groupId>
   <artifactId>huisstijl</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>LNE Webjar huisstijl</name>
   <description>
