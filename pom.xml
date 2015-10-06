@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>be.milieuinfo.webjars</groupId>
   <artifactId>huisstijl</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
   <name>LNE Webjar huisstijl</name>
   <description>
-      De huisstijl verpakt in een webjar. De huisstijl is gebasseerd op foundation css en is ge&#xEF;mplementeerd als een SASS stylesheet.
+      De huisstijl verpakt in een webjar. De huisstijl is gebasseerd op foundation css en is geïmplementeerd als een SASS stylesheet.
    </description>
 
    <organization>
@@ -24,7 +24,7 @@
     <connection>scm:git:ssh://git@stash-pr-3255.mmis.be/dspac/huiststijl.git</connection>
     <developerConnection>scm:git:ssh://git@stash-pr-3255.mmis.be/dspac/huiststijl.git</developerConnection>
     <url>scm:git:ssh://git@stash-pr-3255.mmis.be/dspac/huiststijl.git</url>
-    <tag>HEAD</tag>
+    <tag>openam-0.0.1</tag>
   </scm>
 
   <properties>
@@ -68,7 +68,7 @@
                 <includes>
                   <include>app.scss</include>
                 </includes>
-                <excludes/>
+                <excludes />
               </source>
               <relativeOutputDirectory>..</relativeOutputDirectory>
               <destination>${outDir}/css</destination>
