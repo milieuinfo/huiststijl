@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>be.milieuinfo.webjars</groupId>
   <artifactId>huisstijl</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>LNE Webjar huisstijl</name>
   <description>
@@ -24,7 +24,7 @@
     <connection>scm:git:ssh://git@stash-pr-3255.mmis.be/dspac/huiststijl.git</connection>
     <developerConnection>scm:git:ssh://git@stash-pr-3255.mmis.be/dspac/huiststijl.git</developerConnection>
     <url>scm:git:ssh://git@stash-pr-3255.mmis.be/dspac/huiststijl.git</url>
-    <tag>huisstijl-0.0.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
